@@ -23,41 +23,193 @@
 <div class="row">
 	<div class="col-sm-4">
 			<ul>
-				<li> <a href="typo.html">BS Typography</a></li>
-				<li><a href="tables.html">BS Tables</a></li>
-				<li><a href="#">BS Images</a></li>
-				<li><a href="#">BS Jumbotron</a></li>
-				<li><a href="#">BS Wells</a></li>
-				<li><a href="#">BS Alerts</a></li>
-				<li><a href="#">BS Buttons</a></li>
-				<li><a href="#">BS Button Groups</a></li>
-				<li><a href="#">BS Glyphicons</a></li>
-				<li><a href="#">BS Badges/Labels</a></li>
-				<li><a href="#">BS Progress Bars</a></li>
-				<li><a href="#">BS Pagination</a>/<li>
-				<li><a href="#">BS Pager</a></li>
-				<li><a href="#">BS List Groups</a></li>
-				<li><a href="#">BS Panels</a>/<li>
-				<li><a href="#">BS Dropdowns</a></li>
-				<li><a href="#">BS Collapse</a></li>
-				<li><a href="#">BS Tabs/Pills</a></li>
-				<li><a href="#">BS Navbar</a></li>
-				<li><a href="#">BS Forms</a></li>
-				<li><a href="#">BS Inputs</a></li>
-				<li><a href="#">BS Inputs 2</a></li>
-				<li><a href="#">BS Input Sizing</a></li>
-				<li><a href="#">BS Media Objects</a></li>
-				<li><a href="#">BS Carousel</a></li>
-				<li><a href="#">BS Modal</a></li>
-				<li><a href="#">BS Tooltip</a></li>
-				<li><a href="#">BS Popover</a></li>
-				<li><a href="#">BS Scrollspy</a></li>
-				<li><a href="#">BS Affix</a></li>
-				<li><a href="index.html">Home</a> </li>
-			</ul>>
+<ul>
+        <li><a href="typography.html">BS Typography</a></li>
+        <li><a href="tables.html">BS Tables</a></li>
+        <li><a href="images.html">BS Images</a></li>
+        <li><a href="jumbotron.html">BS Jumbotron</a></li>
+        <li><a href="wells.html">BS Wells</a></li>
+        <li><a href="alerts.html">BS Alerts</a></li>
+        <li><a href="buttons.html">BS Buttons</a></li>
+        <li><a href="button_groups.html">BS Button Groups</a></li>
+        <li><a href="glyphicons.html">BS Glyphicons</a></li>
+        <li><a href="badges.html">BS Badges/Labels</a></li>
+        <li><a href="progress_bars.html">BS Progress Bars</a></li>
+        <li><a href="pagination.html">BS Pagination</a></li>
+        <li><a href="pager.html">BS Pager</a></li>
+        <li><a href="list_groups.html">BS List Groups</a></li>
+        <li><a href="panels.html">BS Panels</a></li>
+        <li><a href="dropdowns.html">BS Dropdowns</a></li>
+        <li><a href="collapse.html">BS Collapse</a></li>
+        <li><a href="tabs_pills.html">BS Tabs/Pills</a></li>
+        <li><a href="#navbar.html">BS Navbar</a></li>
+        <li><a href="forms.html">BS Forms</a></li>
+        <li><a href="inputs.html">BS Inputs</a></li>
+        <li><a href="inputs_2.html">BS Inputs 2</a></li>
+        <li><a href="input_sizing.html">BS Input Sizing</a></li>
+        <li><a href="media_objects.html">BS Media Objects</a></li>
+        <li><a href="carousel.html">BS Carousel</a></li>
+        <li><a href="modal.html">BS Modal</a></li>
+        <li><a href="tooltip.html">BS Tooltip</a></li>
+        <li><a href="popover.html">BS Popover</a></li>
+        <li><a href="scrollspy.html">BS Scrollspy</a></li>
+        <li><a href="affix.html">BS Affix</a></li>
+        <li><a href="index.html">Home</a> </li>
+      </ul>
 	</div>
 	<div class="col-sm-8">
-			
+	<div class="container">
+  <h2>Horizontal form with static control</h2>
+  <form class="form-horizontal" action="/action_page.php">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-10">
+        <p class="form-control-static">someone@example.com</p>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Password:</label>
+      <div class="col-sm-10">          
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>	
+<div class="container">
+  <h3>Input Groups</h3>
+  <p>The .input-group class is a container to enhance an input by adding an icon, text or a button in front or behind it as a "help text".</p>
+  <p>The .input-group-addon class attaches an icon or help text next to the input field.</p>
+  
+  <form>
+    <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+    </div>
+    <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+      <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+    </div>
+    <br>
+    <div class="input-group">
+      <span class="input-group-addon">Text</span>
+      <input id="msg" type="text" class="form-control" name="msg" placeholder="Additional Info">
+    </div>
+  </form>
+  <br>
+
+  <p>It can also be used on the right side of the input:</p>
+  <form>
+    <div class="input-group">
+      <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>   
+    </div>
+    <div class="input-group">
+      <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+    </div>
+  </form>
+</div>
+<div class="container">
+  <h1>Input Group Button</h1>
+  <p>The .input-group class is a container to enhance an input by adding an icon, text or a button in front or behind it as a "help text".</p>
+  <p>The .input-group-btn class attaches a button next to an input field. This is often used as a search bar:</p>
+  <form action="/action_page.php">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search" name="search">
+      <div class="input-group-btn">
+        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+      </div>
+    </div>
+  </form>
+</div>
+<div class="container">
+  <h2>Horizontal form: control states</h2>
+  <form class="form-horizontal">
+    <div class="form-group">
+      <label class="col-sm-2 control-label">Focused</label>
+      <div class="col-sm-10">
+        <input class="form-control" id="focusedInput" type="text" value="Click to focus...">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="disabledInput" class="col-sm-2 control-label">Disabled</label>
+      <div class="col-sm-10">
+        <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+      </div>
+    </div>
+    <fieldset disabled>
+      <div class="form-group">
+        <label for="disabledTextInput" class="col-sm-2 control-label">Disabled input and select list (Fieldset disabled)</label>
+        <div class="col-sm-10">
+          <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="disabledSelect" class="col-sm-2 control-label"></label>
+        <div class="col-sm-10">
+          <select id="disabledSelect" class="form-control">
+            <option>Disabled select</option>
+          </select>
+        </div>
+      </div>
+    </fieldset>
+    <div class="form-group has-success has-feedback">
+      <label class="col-sm-2 control-label" for="inputSuccess">Input with success and glyphicon</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="inputSuccess">
+        <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+      </div>
+    </div>
+    <div class="form-group has-warning has-feedback">
+      <label class="col-sm-2 control-label" for="inputWarning">Input with warning and glyphicon</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="inputWarning">
+        <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+      </div>
+    </div>
+    <div class="form-group has-error has-feedback">
+      <label class="col-sm-2 control-label" for="inputError">Input with error and glyphicon</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="inputError">
+        <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+      </div>
+    </div>
+  </form>
+</div>
+<div class="container">
+  <h2>Inline form: control states</h2>
+  <form class="form-inline">
+    <div class="form-group">
+      <label for="focusedInput">Focused</label>
+      <input class="form-control" id="focusedInput" type="text">
+    </div>
+    <div class="form-group">
+      <label for="inputPassword">Disabled</label>
+      <input class="form-control" id="disabledInput" type="text" disabled>
+    </div>
+    <div class="form-group has-success has-feedback">
+      <label for="inputSuccess2">Input with success</label>
+      <input type="text" class="form-control" id="inputSuccess2">
+      <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+    </div>
+    <div class="form-group has-warning has-feedback">
+      <label for="inputWarning2">Input with warning</label>
+      <input type="text" class="form-control" id="inputWarning2">
+      <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+    </div>
+    <div class="form-group has-error has-feedback">
+      <label for="inputError2">Input with error</label>
+      <input type="text" class="form-control" id="inputError2">
+      <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+    </div>
+  </form>
+</div>
+		
 	</div>
 	
 </div>
