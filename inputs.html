@@ -23,41 +23,134 @@
 <div class="row">
 	<div class="col-sm-4">
 <ul>
-        <li><a href="typography.html">BS Typography</a></li>
-        <li><a href="tables.html">BS Tables</a></li>
-        <li><a href="images.html">BS Images</a></li>
-        <li><a href="jumbotron.html">BS Jumbotron</a></li>
-        <li><a href="wells.html">BS Wells</a></li>
-        <li><a href="alerts.html">BS Alerts</a></li>
-        <li><a href="buttons.html">BS Buttons</a></li>
-        <li><a href="button_groups.html">BS Button Groups</a></li>
-        <li><a href="glyphicons.html">BS Glyphicons</a></li>
-        <li><a href="badges.html">BS Badges/Labels</a></li>
-        <li><a href="progress_bars.html">BS Progress Bars</a></li>
-        <li><a href="pagination.html">BS Pagination</a></li>
-        <li><a href="pager.html">BS Pager</a></li>
-        <li><a href="list_groups.html">BS List Groups</a></li>
-        <li><a href="panels.html">BS Panels</a></li>
-        <li><a href="dropdowns.html">BS Dropdowns</a></li>
-        <li><a href="collapse.html">BS Collapse</a></li>
-        <li><a href="tabs_pills.html">BS Tabs/Pills</a></li>
-        <li><a href="#navbar.html">BS Navbar</a></li>
-        <li><a href="forms.html">BS Forms</a></li>
-        <li><a href="inputs.html">BS Inputs</a></li>
-        <li><a href="inputs_2.html">BS Inputs 2</a></li>
-        <li><a href="input_sizing.html">BS Input Sizing</a></li>
-        <li><a href="media_objects.html">BS Media Objects</a></li>
-        <li><a href="carousel.html">BS Carousel</a></li>
-        <li><a href="modal.html">BS Modal</a></li>
-        <li><a href="tooltip.html">BS Tooltip</a></li>
-        <li><a href="popover.html">BS Popover</a></li>
-        <li><a href="scrollspy.html">BS Scrollspy</a></li>
-        <li><a href="affix.html">BS Affix</a></li>
-        <li><a href="index.html">Home</a> </li>
-      </ul>
+				<li><a href="index.html">Home</a> </li>
+				<li><a href="typography.html">BS Typography</a></li>
+				<li><a href="tables.html">BS Tables</a></li>
+				<li><a href="images.html">BS Images</a></li>
+				<li><a href="jumbotron.html">BS Jumbotron</a></li>
+				<li><a href="wells.html">BS Wells</a></li>
+				<li><a href="alerts.html">BS Alerts</a></li>
+				<li><a href="buttons.html">BS Buttons</a></li>
+				<li><a href="button_groups.html">BS Button Groups</a></li>
+				<li><a href="glyphicons.html">BS Glyphicons</a></li>
+				<li><a href="badges.html">BS Badges/Labels</a></li>
+				<li><a href="progress_bars.html">BS Progress Bars</a></li>
+				<li><a href="pagination.html">BS Pagination</a></li>
+				<li><a href="pager.html">BS Pager</a></li>
+				<li><a href="list_groups.html">BS List Groups</a></li>
+				<li><a href="panels.html">BS Panels</a></li>
+				<li><a href="dropdowns.html">BS Dropdowns</a></li>
+				<li><a href="collapse.html">BS Collapse</a></li>
+				<li><a href="tabs_pills.html">BS Tabs/Pills</a></li>
+				<li><a href="#navbar.html">BS Navbar</a></li>
+				<li><a href="forms.html">BS Forms</a></li>
+				<li><a href="inputs.html">BS Inputs</a></li>
+				<li><a href="inputs_2.html">BS Inputs 2</a></li>
+				<li><a href="input_sizing.html">BS Input Sizing</a></li>
+				<li><a href="media_objects.html">BS Media Objects</a></li>
+				<li><a href="carousel.html">BS Carousel</a></li>
+				<li><a href="modal.html">BS Modal</a></li>
+				<li><a href="tooltip.html">BS Tooltip</a></li>
+				<li><a href="popover.html">BS Popover</a></li>
+				<li><a href="scrollspy.html">BS Scrollspy</a></li>
+				<li><a href="affix.html">BS Affix</a></li>
+				
+			</ul>
 	</div>
 	<div class="col-sm-8">
-			
+	<div class="container">
+  <h2>Form control: input</h2>
+  <p>The form below contains two input elements; one of type text and one of type password:</p>
+  <form>
+    <div class="form-group">
+      <label for="usr">Name:</label>
+      <input type="text" class="form-control" id="usr">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd">
+    </div>
+  </form>
+</div>
+<div class="container">
+  <h2>Form control: textarea</h2>
+  <p>The form below contains a textarea for comments:</p>
+  <form>
+    <div class="form-group">
+      <label for="comment">Comment:</label>
+      <textarea class="form-control" rows="5" id="comment"></textarea>
+    </div>
+  </form>
+</div>
+<div class="container">
+  <h2>Form control: checkbox</h2>
+  <p>The form below contains three checkboxes. The last option is disabled:</p>
+  <form>
+    <div class="checkbox">
+      <label><input type="checkbox" value="">Option 1</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" value="">Option 2</label>
+    </div>
+    <div class="checkbox disabled">
+      <label><input type="checkbox" value="" disabled>Option 3</label>
+    </div>
+  </form>
+</div>
+<div class="container">
+  <h2>Form control: radio buttons</h2>
+  <p>The form below contains three radio buttons. The last option is disabled:</p>
+  <form>
+    <div class="radio">
+      <label><input type="radio" name="optradio">Option 1</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" name="optradio">Option 2</label>
+    </div>
+    <div class="radio disabled">
+      <label><input type="radio" name="optradio" disabled>Option 3</label>
+    </div>
+  </form>
+</div>
+div class="container">
+  <h2>Form control: inline radio buttons</h2>
+  <p>The form below contains three inline radio buttons:</p>
+  <form>
+    <label class="radio-inline">
+      <input type="radio" name="optradio">Option 1
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="optradio">Option 2
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="optradio">Option 3
+    </label>
+  </form>
+</div>
+<div class="container">
+  <h2>Form control: select</h2>
+  <p>The form below contains two dropdown menus (select lists):</p>
+  <form>
+    <div class="form-group">
+      <label for="sel1">Select list (select one):</label>
+      <select class="form-control" id="sel1">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+      <br>
+      <label for="sel2">Mutiple select list (hold shift to select more than one):</label>
+      <select multiple class="form-control" id="sel2">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+    </div>
+  </form>
+</div>	
 	</div>
 	
 </div>
