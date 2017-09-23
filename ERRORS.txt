@@ -1,0 +1,47 @@
+bs carousel
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+bs alerts
+TYPE html>?<html>?<head
+bs collapse
+From line 1, column 16; to line 2, column 6
+
+TYPE html>?<html>?<head
+From line 74, column 3; to line 74, column 34
+
+ble</a>?  <div id="demo" class="collapse">? 
+From line 65, column 3; to line 65, column 34
+
+button>?  <div id="demo" class="collapse">
+From line 84, column 3; to line 84, column 37
+
+button>?  <div id="demo" class="collapse in">?  
+From line 65, column 3; to line 65, column 34
+
+button>?  <div id="demo" class="collapse">?  
+From line 117, column 7; to line 117, column 58
+
+iv>?      <div id="collapse1" class="panel-collapse collapse">?     
+From line 100, column 7; to line 100, column 58
+
+iv>?      <div id="collapse1" class="panel-collapse collapse">?     
+
+From line 138, column 7; to line 138, column 61
+
+iv>?      <div id="collapse1" class="panel-collapse collapse in">?     
+From line 100, column 7; to line 100, column 58
+
+iv>?      <div id="collapse1" class="panel-collapse collapse">?     
+BS FORMS
+BS IMAGES
+BS INPUT_SIZING
+BS INPUTS
+BS INPUTS_2
+BS JUMBOTRON
+BS LIST GROUPS
+BS MEDIA OBJECTS
+BS MODAL
+BS NAVBAR
+BS SCROLLSPY
+BS TABLES
+BS TABS/PILLS
+BS WELLS
